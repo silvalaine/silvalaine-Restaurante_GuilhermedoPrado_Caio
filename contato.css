@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+body {
+    text-align: center;
+}
+
+h1 {
+    color: #8A0019;
+    font-size: 40px;
+}
+
+fieldset {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+fieldset#sexo {
+    margin-bottom: 20px;
+}

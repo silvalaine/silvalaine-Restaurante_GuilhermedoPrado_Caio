@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contato.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prado's Restaurant</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <img src="imagens/logo.PNG">
+    <nav id="Menu">
+        <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <hr>
+    </header>
+    <h1 id="Fale Conosco">Fale Conosco!</h1>
+
+    <form action="joaopedrohenriquesrangel@gmail.com" method="post" id="iContato">
+
+        <fieldset>
+
+        <legend>Identificação do Usuário</legend>
+        <p>
+        Nome:
+        <input type="text" name="tNome" id="Nome" size="50" maxlength="80" placeholder="Nome completo"></input>
+        </p>
+
+    <p>
+        E-mail:
+        <input type="email" name="tEmail" id="Email" size="30" maxlength="30" placeholder="Digite seu e-mail">
+    </p>
+
+<p>
+    Senha:
+    <input type="password" name="tSenha" id="Senha" size="20" maxlength="15" placeholder="Senha 10 dígitos">
+</p>
+
+<fieldset id="sexo">
+    <legend>Sexo:</legend>
+    
+      <input type="radio" name="tSexo" id="Masc"><label for="Masc"> Masculino</label> <br>
+
+      <input type="radio" name="tSexo" id="Fem" checked=""><label for="Fem"> Feminino</label>
+
+</fieldset>
+
+          <fieldset>
+        <legend>Endereço do Usuário</legend>
+        <p>
+        Número:
+        <input type="number" name="tNum" id="Num" min="0" max="9999">
+    </p>
+
+    <p>
+        <label for="Est">Estado:</label>
+        <select name="tEst" id="Est">
+            <optgroup label="Região Sudeste">
+            <option value="SP">São Paulo</option>
+            <option value="RJ" selected="">Rio de Janeiro</option>
+            <option value="MG">Mato Gerais</option>
+            <option value="ES">Espírito Santo</option>
+        </optgroup>
+    </fieldset>
+</select>
+    </p>
+
+    <p>
+        <label for="Cid">Cidade:
+        <input type="text" name="tCid" id="Cid" size="30" maxlength="50" placeholder="Digite sua Cidade"></label>
+    </p>
+
+    <fieldset id="mensagem">
+        <legend>Mensagem do Usuário</legend>
+            <p>
+                <label for="Msg">Mensagem:</label>
+                <textarea name="tMsg" id="Msg" cols="45" rows="5" placeholder="Digite sua Mensagem" style="width: 250px; height: 50px;"></textarea>
+            </p>
+    </fieldset>
+
+        <p>
+        <input type="submit" value="Enviar">
+        </p>
+</form>
+    </div>
+</main>
+
+<a href="#Topo"><img src="imagens/logo.PNG" id="sino"></a>
+
+</section>
+</body>
+</html>
